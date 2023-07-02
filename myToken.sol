@@ -32,8 +32,8 @@ function mint (address _address, uint _value) public {
     // burn function
 function burn (address _address, uint _value) public {
     if (balances[_address] >= _value) {
-   totalSupply += _value;
-   balances[_address] += _value;
+   totalSupply -= _value;
+   balances[_address] -= _value;
   
     }
 }
