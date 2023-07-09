@@ -5,7 +5,7 @@ I have created this code using the solidity programming language. The contract n
 
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. It has been created using many functions which have been listed below
 # Public variables
-The code starts with assigning the name and abbreviation of the token using a string variable. The  name is token name is  'Sixers' and abbreviation as 'six'
+The code starts with assigning the name and abbreviation of the token using a string variable. The  name is token name is  'Hello' and abbreviation as 'Hel'
 # Mapping variable
 The mapping of the variable is conducted in the second part of the program. This simply means that if the address is given by any user it should display back the balance amount of tokens.
 # Mint function
@@ -45,8 +45,8 @@ pragma solidity 0.8.18;
 contract MyToken {
 
     // public variables here
-    string public tokenName = "Sixers";
-    string public tokenAbbrv = "Six";
+    string public tokenName = "Hello";
+    string public tokenAbbrv = "Hel";
     uint public totalSupply = 0;
 
     // mapping variable here
@@ -72,7 +72,7 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
 
 Once the contract is deployed, you can see the contract in the deployed contract section. Now copy the address from account and paste it in the address box in the mint function and put a value in the value box. Then transact it, now you can see the value in the total supply has been changed. We can do the same for the burn function.
 # Author
-Manu Mathew
+Anto Joy
 
 
 ## License
